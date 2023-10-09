@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-color: #1E333E;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Footers{
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 700;
+  font-size: medium;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.title-header{
+  background-color: #0E101E;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  height: 10vh;
+}
+
+.DisplayCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blogImage{
+  width: 50%;
+  height: 100%;
+}
+.blogName{
+  width: 50%;
+  height: 100%;
+}
+.authorName{
+  width: 50%;
+  height: 100%;
+}
+.blogDescription{
+  width: 50%;
+  height: 100%;
+}
+.blogContainer{
+  margin-top: 700px;
+  width: 90%;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.createBlog{
+  margin-top: 20px;
+  width: 90%;
+  padding: 10px 10px;
+}
+
+#DisplayCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-control{
+  margin: 20px;
+}
+
+.searchText{
+  padding: 10px;
+}
